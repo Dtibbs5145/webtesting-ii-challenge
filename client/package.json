@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --verbose",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -20,6 +20,7 @@
     "production": [
       ">0.2%",
       "not dead",
+      "not ie <=11",
       "not op_mini all"
     ],
     "development": [

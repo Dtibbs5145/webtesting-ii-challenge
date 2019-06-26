@@ -4,7 +4,7 @@ import Dashboard from './Dashboard';
 class Display extends React.Component {
     constructor(props) {
         super(props);
-        this.status = {
+        this.state = {
             strike: 0,
             ball: 0
         }
